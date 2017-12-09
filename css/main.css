@@ -40,8 +40,8 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	background-color: #333;
 	opacity: 0.7;
+	background-color: white;
 	margin-top: 40px;
 	color: #fff;
 	font-size: 12px;
@@ -76,10 +76,12 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	color: #6c7279;
+	background-image: url("images/bg.jpg"); 
+	background-repeat: repeat;
 }
 ul, ol {
 	margin: 0;
-	padding: 0;
+	padding: 12px;
 }
 ul li {
 	list-style: none;
@@ -107,13 +109,13 @@ ul li {
 }
 #header .header-content {
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 7px 0;
 	width: 100%;
 	-moz-transition: padding 0.3s;
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
-	margin-top: -9px;
+	
 	background:  #333;
 }
 #header .logo {
@@ -301,7 +303,7 @@ ul li {
 
 .carousel {
 	width: 94%;
-	height: 610px;
+	height: 590px;
 	margin: auto;
 }
 .item, .active, .carousel-inner {
