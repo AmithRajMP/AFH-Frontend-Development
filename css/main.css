@@ -40,8 +40,20 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	opacity: 0.7;
+	opacity: 0.8;
 	background-color: white;
+	margin-top: 40px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 0px;
+	padding: 3% 7%;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.btn1 {
+	background-color: turquoise;
 	margin-top: 40px;
 	color: #fff;
 	font-size: 12px;
@@ -55,6 +67,11 @@ h5 {
 .btn:hover, .btn:focus {
 	background-color: #000;
 	color: #fff;
+}
+
+.btn1:hover, .btn1:focus {
+	background-color:turquoise;
+	color: #000;
 }
 .btn-large {
 	padding: 15px 40px;
