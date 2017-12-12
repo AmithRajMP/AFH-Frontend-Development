@@ -132,7 +132,7 @@ ul li {
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 	
-	background:  #333;
+	background:  #000;
 }
 #header .logo {
 	font-size: 21px;
@@ -140,10 +140,11 @@ ul li {
 	font-weight: 700;
 	float: left;
 	text-transform: uppercase;
-	margin-top: -10px;
+	margin-top: -5px;
+	padding-left: 50px;
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: #000;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -369,7 +370,6 @@ ul li {
 .services {
 	width: 94%;
 	margin: auto;
-	background-color: #f2f2f2;
 }
 .services h4 {
 	font-size: 33px;
