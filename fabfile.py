@@ -1,4 +1,5 @@
 from fabric.api import local, run, task, roles, put, env, sudo
+from fabric.context_managers import cd
 
 env.user = 'ubuntu'
 env.key_filename = 'prod-afhrk.key'
@@ -10,5 +11,5 @@ env.roledefs = {
 @roles('prod')
 @task
 def update_code():
-    run('cd /var/www/html')
-    run('git pull origin master')
+    with cd('/var/www/html/'):
+        run('git pull gitlab master')
