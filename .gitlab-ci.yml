@@ -1,0 +1,6 @@
+image: abhijh/python-deployment:latest
+
+deploy:
+  stage: deploy
+  script:
+    - fab update_code
