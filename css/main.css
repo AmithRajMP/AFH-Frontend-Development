@@ -77,8 +77,6 @@ h5 {
 	padding: 15px 40px;
 }
 
-
-
 /* ------------------------------------------------------------------------------
 	 General Style
 -------------------------------------------------------------------------------*/
@@ -394,14 +392,14 @@ ul li {
 	margin-top: 7%;
 }
 .services-content {
-	margin: 50px;
+	margin: 30px;
 }
 .services-content li a {
 	color: #6c7279;
 	line-height: 30px;
 }
 .services-content li a:hover {
-	color: #ffd700;
+	color: white;
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
