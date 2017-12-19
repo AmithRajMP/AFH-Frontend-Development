@@ -4,3 +4,5 @@ deploy:
   stage: deploy
   script:
     - fab update_code
+  only:
+    - master
