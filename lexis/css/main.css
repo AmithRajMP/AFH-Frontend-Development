@@ -127,11 +127,9 @@ ul li {
 	letter-spacing:7px;
 }
 #header.fixed {
-	background-color: #fff;
+	background-color: #00aeda;
 }
-#header.fixed a {
-	color: #000;
-}
+
 #header.fixed .header-content {
 	border-bottom: 0;
 	padding: 25px 0;
@@ -655,3 +653,15 @@ padding:15px 30px 15px 30px;
 	font-size: 11px;
 	margin: 0 2px;
 }
+    .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; }
