@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
 #header .header-content {
-	width: 90%;
+	width: 100%;
 }
 .nav-toggle {
 	display: block;
@@ -39,7 +39,7 @@
 	text-align: center;
 }
 .testimonials blockquote {
-	padding: 20px 5% 0;
+	padding: 10px 1% 0;
 }
 .testimonials p {
 	font-size: 26px;

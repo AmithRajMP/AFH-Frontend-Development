@@ -206,7 +206,7 @@ ul li {
 	position: fixed;
 	right: 5%;
 	text-indent: 100%;
-	top: 32px;
+	top: 7%;
 	white-space: nowrap;
 	width: 44px;
 	z-index: 99999;
@@ -382,7 +382,7 @@ ul li {
 	background: none;
 }
 .carousel-control {
-	opacity: 1;
+	opacity: 0.7;
 	text-shadow: none;
 }
 /* ------------------------------------------------------------------------------
@@ -621,3 +621,12 @@ ul li {
     }
 
 }
+
+  .fit { /* set relative picture size */
+    max-width: 48%;
+    max-height: 50%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
