@@ -40,7 +40,7 @@ h5 {
 	font-weight: 700;
 }
 .btn {
-	
+	width: 250px;
 	background-color: rgba(0,0,0,0.8);
 	margin-top: 40px;
 	color: #fff;
@@ -48,7 +48,7 @@ h5 {
 	font-weight: 600;
 	letter-spacing: 1px;
 	border-radius: 0px;
-	padding: 3% 7%;
+/*	padding: 3% 7%; */
 	display: inline-block;
 	text-transform: uppercase;
 }
@@ -76,12 +76,28 @@ h5 {
 .btn-large {
 	padding: 15px 40px;
 }
+.divider{
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+    .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 
+
+.fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; }
 
 /* ------------------------------------------------------------------------------
 	 General Style
 -------------------------------------------------------------------------------*/
+
 a {
 	color: #e84545;
 
@@ -98,6 +114,7 @@ body {
 	font-weight: 400;
 	color: #6c7279;
 }
+
 ul, ol {
 	margin: 0;
 	padding: 20px;
@@ -189,7 +206,7 @@ ul li {
 	position: fixed;
 	right: 5%;
 	text-indent: 100%;
-	top: 32px;
+	top: 7%;
 	white-space: nowrap;
 	width: 44px;
 	z-index: 99999;
@@ -323,8 +340,8 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .carousel {
-	width: 94%;
-	height: 590px;
+	width: 68%;
+	height: 420px;
 	margin: auto;
 }
 .item, .active, .carousel-inner {
@@ -365,7 +382,7 @@ ul li {
 	background: none;
 }
 .carousel-control {
-	opacity: 1;
+	opacity: 0.7;
 	text-shadow: none;
 }
 /* ------------------------------------------------------------------------------
@@ -394,14 +411,14 @@ ul li {
 	margin-top: 7%;
 }
 .services-content {
-	margin: 50px;
+	margin: 30px;
 }
 .services-content li a {
 	color: #6c7279;
 	line-height: 30px;
 }
 .services-content li a:hover {
-	color: #ffd700;
+	color: white;
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
@@ -571,3 +588,45 @@ ul li {
 #contact{
 	padding-top: 10px;
 }
+
+
+.res-mobile-bg{
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  position: relative;
+  width: 100%;
+  background: url("../images/bg1.jpg");
+}
+
+
+ @media only screen and (max-width:480px){
+.res-mobile-bg{
+  background: url("../images/sample.png");
+}
+    }
+
+
+
+    .small-screen-fix{
+    	margin-left: 15px;
+    }
+
+
+     @media only screen and (max-width:480px){
+     	 .small-screen-fix{
+
+     	 	float: left;
+     	 	display: block;
+     	 	margin-left: 18%;
+    }
+
+}
+
+  .fit { /* set relative picture size */
+    max-width: 48%;
+    max-height: 50%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
