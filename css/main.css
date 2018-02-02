@@ -442,7 +442,7 @@ ul li {
 	width: 100%;
 	height: 100%;
 	opacity: 0;
-	background: rgba(58, 54, 54, .9);
+	background: rgba(58, 54, 54, 0.9);
 	-webkit-transition: all ease .5s;
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;
@@ -630,3 +630,16 @@ ul li {
     display: block;
     margin: auto;
   }
+  .services1 p {
+	color: #6c7279;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 2%;
+	margin-right: 20%;
+	margin-left: 20%;
+
+
+}
+.services1-content {
+	margin: 10px;
+}
